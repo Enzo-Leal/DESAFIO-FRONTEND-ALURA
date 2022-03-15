@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+.header__padrao{
+    padding: 40px;
+    background: #fff;
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+.banner img{
+    height: auto;
+    width:100%;
+    position: absolute;
+    
+}
+}
