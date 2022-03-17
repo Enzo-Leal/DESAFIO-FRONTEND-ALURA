@@ -1,56 +1,62 @@
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-.header__padrao{
-    padding: 40px;
-    background: #fff;
-    width: 100%;
-    display: inline-flex;
+
+    .header__padrao{
+        background: #fff;
+        width: 100%;
+        display: inline-flex;
+        
+    }
+
     
-}
-
-.banner img{
-    height: 190px;
-    width:100%;
-    display: inline-block;
-    position: relative;
-}
-.banner{
-    display: flex;
-}
-.texto_banner{
-    position: absolute;
-    color: #ffffff;
-    top: 240px;
-    left: 30px;
-}
-.banner h1{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-}
-.button h3{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-}
-.banner button{
-    background: #2A7AE4;
-    position: static;
-    width: 119px;
-    height: 40px;
-}
+    .banner img{
+        height: 190px;
+        width:100%;
+        display: inline-block;
+        position: relative;
+    }
+    .banner{
+        display: flex;
+    }
+    .texto_banner{
+        position: absolute;
+        color: #ffffff;
+        top: 150px;
+        left: 30px;
+    }
+    .banner h1{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .button h3{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .banner button{
+        background: #2A7AE4;
+        position: static;
+        width: 119px;
+        height: 40px;
+    }
 
 
-}
 
- .produto{
-    padding: 16px;
-    display: inline-block;
-    width: 40%;
-    height: 40%;
-}
+    .produto{
+        margin: 16px;
+        display: inline-block;
+        width: 40%;
+        height: 40%;
+    }
+
+    .produto img{
+    width: 156px;
+    height: 156px;
+    left: 172px;
+    }
 
 }
